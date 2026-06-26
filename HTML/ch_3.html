@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="UTF-8">
+<meta name= "viewport" content="width=device-width, initial-scale=1.0">
+<title> Chapter 3 - Basic Tags(Part 2)</title>
+</head>
+<body>
+<h1> Tags covered = Images, Lists, and tables </h1>
+<p><h3>1. Image Tag</h3> The image tag is used to embed or display an image on a webpage. It uses the src attribute to specify the image file (basically a link of the image) and the alt attribute to provide alternative text (for instance if the image becomes unavailable for some reason the user will at least get a reference or context about the image).Example:<br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5S4cD8zcnRSmFGhtDPq-800b4yzgaEixRYTU7szn08w&s=10" alt="Porsche 911"><br> Sports Car </img><br><br>
+Also height and width can be set according to us with using attributes like width and height in the img tag itself. If any one of the two is set by us the other will be set or adjusted accordingly. Using attribute the same image looks like, where height is set to 100(pixels):<br>
+<img height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5S4cD8zcnRSmFGhtDPq-800b4yzgaEixRYTU7szn08w&s=10" alt="Porsche 911"><br> Sports Car </img><br><br>
+While using the width and height attribute we only need to add a number in the inverted commas as the number will be received in context of pixels by default.<br><br>
+<h3>2. List Tag</h3>
+List tags are used to organize and display related items in a list format. There are three types of lists which HTML supports:- 1.Unordered lists, 2.Ordered Lists, and 3.Definition lists. The items are listed using li tag which stands for list items. 
+<h4>a. Unordered Lists - ul</h4>Example:
+<ul>
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Watermelon</li>
+</ul>
+The 'type' attribute is used to customize the bullet points in unordered list. It supports three values: Disc(by default), Square, and Circle.
+<h4>b. Ordered Lists - ol</h4>Example:
+<ol>
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Watermelon</li>
+</ol>
+The 'type' attribute supports 5 values in ordered list. Which are as follows(type="_"):<br>I for Uppercase Roman<br> i for Lowercase Roman<br> 1 for Arabic Numerals (by default)<br> a for Lowercase Alphabetical<br> A for Uppercase Alphabetical
+<h4>c. Definition Lists - dl</h4>
+<dl>
+    <dt>Fruits</dt>
+    <dd>Apple</dd>
+    <dd>Mango</dd>
+    <dd>Watermelon</dd>
+</dl><br>
+<h3>3. Table Tag</h3>
+Table tags are used to display data in rows and columns. The main tags are: table- creates the table, tr- table row, th- table header (used for headings), and td- table data (basically a cell).<br>Example of a Table:<br><br>
+<table>
+    <tr>
+        <th>Sr No.</th>
+        <th>Name</th>
+        <th>Roll No.</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>ABC</td>
+        <td>001</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>XYZ</td>
+        <td>002</td>
+    </tr>
+</table><br>
+
+For details like border we prefer external css but a basic one can be done through inline css. So an example of table using basic inline css is as follows for the same table:<br><br>
+<table style="border: 1px solid black;">
+    <tr>
+        <th>Sr No.</th>
+        <th>Name</th>
+        <th>Roll No.</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>ABC</td>
+        <td>001</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>XYZ</td>
+        <td>002</td>
+    </tr>
+</table><br><br>
+And that's all for chapter 3!
+</p>
+</body>
+</html>
+
+
